@@ -38569,7 +38569,8 @@ sort: by_weight
 公羊	gōng yáng	599
 供氧	gōng yǎng	568
 公钥	gōng yào	2207
-弓腰	gōng yāo	254
+弓腰	gōng yāo	394
+共邀	gòng yāo	254
 工业	gōng yè	24501
 功业	gōng yè	1441
 宫野	gōng yě	932
@@ -273812,7 +273813,7 @@ sort: by_weight
 都要做	dōu yào zuò	1407
 豆叶黄	dòu yè huáng	207
 都也是	dōu yě shì	850
-都一处	dōu yí chù	25
+都移除	dōu yí chú	125
 都一点	dōu yì diǎn	770
 抖一抖	dǒu yì dǒu	245
 逗一逗	dòu yí dòu	220
@@ -275063,6 +275064,7 @@ sort: by_weight
 赌一把	dǔ yì bǎ	1313
 读一遍	dú yí biàn	1966
 独一处	dú yí chù	477
+都一处	dū yí chù	25
 赌一次	dǔ yí cì	711
 读一次	dú yí cì	437
 独一档	dú yí dàng	1300
@@ -553318,7 +553320,7 @@ sort: by_weight
 爽快啊	shuǎng kuài a	428
 爽快吧	shuǎng kuài ba	256
 爽快地	shuǎng kuài de	678
-爽快的	shuǎng kuài de	266
+爽快地	shuǎng kuài de	266
 爽快点	shuǎng kuài diǎn	446
 爽快感	shuǎng kuài gǎn	706
 爽快了	shuǎng kuài le	522
@@ -554701,6 +554703,7 @@ sort: by_weight
 睡个够	shuì gè gòu	6
 睡个觉	shuì gè jiào	270
 水阁路	shuǐ gé lù	43
+水个群	shuǐ gè qún	30
 谁给的	shuí gěi de	734
 谁给个	shuí gěi gè	580
 谁给了	shuí gěi le	60
@@ -864324,7 +864327,7 @@ sort: by_weight
 非常地细	fēi cháng de xì	220
 非常地像	fēi cháng de xiàng	328
 非常地香	fēi cháng de xiāng	175
-非常的妖	fēi cháng de yāo	207
+非常地妖	fēi cháng de yāo	207
 非常得意	fēi cháng děi yì	598
 非常低啊	fēi cháng dī a	194
 非常抵触	fēi cháng dǐ chù	598
@@ -909809,6 +909812,7 @@ sort: by_weight
 航海医院	háng hǎi yī yuàn	4
 航海用语	háng hǎi yòng yǔ	117
 航海知识	háng hǎi zhī shi	428
+行行如也	hàng hàng rú yě	117
 行话解释	háng huà jiě shì	50
 杭华油墨	háng huá yóu mò	99
 杭黄高铁	háng huáng gāo tiě	423
@@ -994110,7 +994114,7 @@ sort: by_weight
 老东粥皇	lǎo dōng zhōu huáng	360
 劳动资料	láo dòng zī liào	16
 劳动组合	láo dòng zǔ hé	22
-老都一处	lǎo dōu yí chù	274
+老都一处	lǎo dū yí chù	274
 老队友们	lǎo duì yǒu men	248
 老队员们	lǎo duì yuán men	346
 老多次了	lǎo duō cì le	153
@@ -1224100,7 +1224104,6 @@ sort: by_weight
 行行企企	xíng xíng qǐ qǐ	274
 星形曲线	xīng xíng qū xiàn	144
 星形区域	xīng xíng qū yù	45
-行行如也	xíng xíng rú yě	117
 星星散散	xīng xīng sàn sàn	171
 形形色色	xíng xíng sè sè	2691
 星星闪烁	xīng xīng shǎn shuò	644
@@ -1254943,7 +1254946,7 @@ sort: by_weight
 一所中学	yì suǒ zhōng xué	878
 一梭子弹	yī suō zi dàn	31
 一榻沧然	yí tà cāng rán	4
-一塌糊涂	yī tā hú tu	7520
+一塌糊涂	yì tā hú tu	7520
 一塌括子	yī tā kuò zǐ	4
 依他起性	yī tā qǐ xìng	324
 一塌涂地	yī tā tú dì	22
@@ -1397719,9 +1397722,9 @@ sort: by_weight
 双矩阵对策	shuāng jǔ zhèn duì cè	10
 双可测变换	shuāng kě cè biàn huàn	10
 双壳体潜艇	shuāng ké tǐ qián tǐng	10
-爽快的答应	shuǎng kuài de dā yìng	10
 爽快地答应	shuǎng kuài de dā yìng	10
-爽快的战斗	shuǎng kuài de zhàn dòu	10
+爽快地答应	shuǎng kuài de dā yìng	10
+爽快地战斗	shuǎng kuài de zhàn dòu	10
 双缆单源法	shuāng lǎn dān yuán fǎ	10
 爽朗的笑容	shuǎng lǎng de xiào róng	10
 爽朗的笑声	shuǎng lǎng de xiào shēng	10
@@ -1432481,7 +1432484,7 @@ sort: by_weight
 重组人胰岛素	chóng zǔ rén yí dǎo sù	10
 重组乙肝疫苗	chóng zǔ yǐ gān yì miáo	10
 筹办夷务始末	chóu bàn yí wù shǐ mò	10
-丑的一塌糊涂	chǒu de yī tā hú tu	10
+丑的一塌糊涂	chǒu de yì tā hú tu	10
 臭豆腐的味道	chòu dòu fǔ de wèi dào	10
 仇法斯门算法	chóu fǎ sī mén suàn fǎ	10
 仇恨犯罪案件	chóu hèn fàn zuì àn jiàn	10
@@ -1433448,7 +1433451,7 @@ sort: by_weight
 打得全军覆没	dǎ de quán jūn fù mò	10
 打得热火朝天	dǎ de rè huǒ cháo tiān	10
 打得头破血流	dǎ de tóu pò xuè liú	10
-打得一塌糊涂	dǎ dé yī tā hú tu	10
+打得一塌糊涂	dǎ dé yì tā hú tu	10
 打得有来有回	dǎ de yǒu lái yǒu huí	10
 大灯延时关闭	dà dēng yán shí guān bì	10
 大地保险公司	dà dì bǎo xiǎn gōng sī	10
@@ -1461028,7 +1461031,7 @@ sort: by_weight
 摔得粉身碎骨	shuāi de fěn shēn suì gǔ	10
 帅的令人发指	shuài de lìng rén fà zhǐ	10
 帅得一塌糊涂	shuài de yī tā hú tu	10
-帅的一塌糊涂	shuài de yī tā hú tu	10
+帅的一塌糊涂	shuài de yì tā hú tu	10
 衰减器大气压	shuāi jiǎn qì dà qì yā	10
 衰减全内反射	shuāi jiǎn quán nèi fǎn shè	10
 摔角狂热大赛	shuāi jiǎo kuáng rè dà sài	10
@@ -1469901,7 +1469904,7 @@ sort: by_weight
 以病人为中心	yǐ bìng rén wéi zhōng xīn	10
 异丙肾上腺素	yì bǐng shèn shàng xiàn sù	10
 以不变应万变	yǐ bù biàn yīng wàn biàn	10
-一步步的成长	yí bù bù de chéng zhǎng	10
+一步步地成长	yí bù bù de chéng zhǎng	10
 异步传输模式	yì bù chuán shū mó shì	10
 异步串行通信	yì bù chuàn xíng tōng xìn	10
 一部二十四史	yí bù èr shí sì shǐ	10

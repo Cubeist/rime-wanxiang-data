@@ -84021,6 +84021,7 @@ sort: by_weight
 泥灸	ní jiǔ	94
 你救	nǐ jiù	75
 拟就	nǐ jiù	60
+你卡	nǐ kǎ	646
 尼卡	ní kǎ	392
 你看	nǐ kàn	51169
 尼堪	ní kān	611
@@ -100897,6 +100898,7 @@ sort: by_weight
 筛片	shāi piàn	194
 晒青	shài qīng	684
 筛去	shāi qù	88
+晒肉	shài ròu	45
 筛入	shāi rù	832
 筛沙	shāi shā	62
 晒晒	shài shài	769
@@ -283280,7 +283282,6 @@ sort: by_weight
 发录音	fā lù yīn	19
 法鲁兹	fǎ lǔ zī	279
 法轮殿	fǎ lún diàn	234
-法轮功	fǎ lún gōng	28
 发论文	fā lùn wén	855
 发轮子	fā lún zi	297
 法洛法	fǎ luò fǎ	374
@@ -598471,7 +598472,6 @@ sort: by_weight
 投行啊	tóu háng a	346
 投行吧	tóu háng ba	248
 投行部	tóu háng bù	927
-投行时	tóu háng shí	446
 投行业	tóu háng yè	990
 头好吧	tóu hǎo ba	450
 头好大	tóu hǎo dà	711
@@ -722568,7 +722568,8 @@ sort: by_weight
 这块吧	zhè kuài ba	378
 这块板	zhè kuài bǎn	38
 这块布	zhè kuài bù	531
-这块地	zhè kuài dì	606
+这快递	zhè kuài dì	606
+这块地	zhè kuài dì	201
 这块儿	zhè kuài er	1262
 这块料	zhè kuài liào	107
 这块肉	zhè kuài ròu	644
@@ -932655,6 +932656,8 @@ sort: by_weight
 活动育人	huó dòng yù rén	225
 活动运营	huó dòng yùn yíng	765
 活动召集	huó dòng zhào jí	495
+活动支出	huó dòng zhī chū	77
+活动指出	huó dòng zhǐ chū	28
 活动致辞	huó dòng zhì cí	405
 活动指导	huó dòng zhǐ dǎo	558
 活动支架	huó dòng zhī jià	220

@@ -17,62 +17,84 @@ import sys
 from pathlib import Path
 
 
-# 优先使用仓库内的 vendor/python；本地目录不可用时自动回退到当前
-# Python 环境（系统 Python、venv 或 pip 安装的 pypinyin）。
+
+# 优先使用仓库根目录的 pypinyin；失败时回退到当前 Python 环境
 _THIS_FILE = Path(__file__).resolve()
-_VENDOR_DIRS = [
-    _THIS_FILE.parents[2] / "vendor" / "python",  # 仓库/tools/rime/<script>.py
-    _THIS_FILE.parent / "vendor" / "python",      # 兼容脚本旁边放置 vendor/
-    Path.cwd() / "vendor" / "python",             # 从仓库根目录运行
-]
+_REPO_ROOT = _THIS_FILE.parents[2]  # 脚本位于 tools/rime/ 下
+_PYPINYIN_DIR = _REPO_ROOT / "pypinyin"
+
+
+def _import_pypinyin():
+    from pypinyin import (
+        pinyin,
+        Style,
+        load_phrases_dict,
+        load_single_dict,
+    )
+    return pinyin, Style, load_phrases_dict, load_single_dict
+
+
+def _is_repo_root_path(entry: str) -> bool:
+    """判断 sys.path 条目是否指向仓库根目录。"""
+    try:
+        return Path(entry or os.getcwd()).resolve() == _REPO_ROOT
+    except (OSError, RuntimeError):
+        return False
 
 
 def _load_pypinyin():
-    """依次尝试仓库副本和当前 Python/venv 中的 pypinyin。"""
-    import_error = None
+    local_error = None
 
-    for vendor_dir in _VENDOR_DIRS:
-        if not (vendor_dir / "pypinyin").is_dir():
-            continue
-        vendor_path = str(vendor_dir)
-        if vendor_path not in sys.path:
-            sys.path.insert(0, vendor_path)
+    # 第一优先级：仓库根目录的 pypinyin/
+    if (_PYPINYIN_DIR / "__init__.py").is_file():
+        # 确保仓库副本优先于系统安装版本。
+        sys.path[:] = [
+            entry for entry in sys.path
+            if not _is_repo_root_path(entry)
+        ]
+        sys.path.insert(0, str(_REPO_ROOT))
+
         try:
-            from pypinyin import (
-                pinyin,
-                Style,
-                load_phrases_dict,
-                load_single_dict,
-            )
-            return pinyin, Style, load_phrases_dict, load_single_dict
+            result = _import_pypinyin()
+            print(f"✓ 使用仓库内 pypinyin: {_PYPINYIN_DIR}")
+            return result
         except ImportError as exc:
-            import_error = exc
-            if vendor_path in sys.path:
-                sys.path.remove(vendor_path)
-            # 清理失败导入留下的半初始化模块，保证后续 venv 重试正常。
+            local_error = exc
+
+            # 清理失败导入留下的半初始化模块。
             for module_name in list(sys.modules):
-                if module_name == "pypinyin" or module_name.startswith("pypinyin."):
+                if (
+                    module_name == "pypinyin"
+                    or module_name.startswith("pypinyin.")
+                ):
                     del sys.modules[module_name]
 
+            # 避免回退时再次导入同一个仓库副本。
+            sys.path[:] = [
+                entry for entry in sys.path
+                if not _is_repo_root_path(entry)
+            ]
+            print(f"[WARN] 仓库内 pypinyin 加载失败，尝试系统环境: {exc}")
+
+    # 第二优先级：当前 Python、venv 或系统环境安装的 pypinyin。
     try:
-        from pypinyin import (
-            pinyin,
-            Style,
-            load_phrases_dict,
-            load_single_dict,
-        )
-        return pinyin, Style, load_phrases_dict, load_single_dict
+        result = _import_pypinyin()
+        print("✓ 使用当前 Python 环境中的 pypinyin")
+        return result
     except ImportError as exc:
-        if import_error is not None:
+        if local_error is not None:
             raise ModuleNotFoundError(
-                "无法加载 pypinyin：仓库 vendor/python 和当前 Python/venv 均不可用"
+                "仓库内 pypinyin 加载失败，当前 Python 环境也无法导入 pypinyin"
             ) from exc
+
         raise ModuleNotFoundError(
-            "未找到 pypinyin，请将其放入 vendor/python 或当前 venv"
+            f"未找到可用的 pypinyin。仓库路径: {_PYPINYIN_DIR}；"
+            "当前 Python 环境也未能导入该模块。"
         ) from exc
 
 
 pinyin, Style, load_phrases_dict, load_single_dict = _load_pypinyin()
+
 
 
 # 你的词典用什么分隔辅助码？

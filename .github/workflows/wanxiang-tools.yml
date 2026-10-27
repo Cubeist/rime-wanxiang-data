@@ -25,7 +25,7 @@ jobs:
 
           test -f apps/desktop/wanxiang-tools.py
           test -f apps/desktop/advanced_settings/__init__.py
-          test -d vendor/python/pypinyin
+          test -d pypinyin
           
           if [ ! -f apps/desktop/assets/icon.ico ]; then touch icon.ico; fi
           # 转换图标
@@ -37,7 +37,7 @@ jobs:
             --paths apps/desktop \
             --paths vendor/python \
             --collect-submodules advanced_settings \
-            --add-data "vendor/python/pypinyin:pypinyin" \
+            --add-data "pypinyin:pypinyin" \
             --hidden-import requests \
             --collect-all ruamel.yaml \
             --exclude-module tkinter \
@@ -151,13 +151,13 @@ jobs:
         run: |
           test -f apps/desktop/wanxiang-tools.py
           test -f apps/desktop/advanced_settings/__init__.py
-          test -d vendor/python/pypinyin
+          test -d pypinyin
           test -f apps/desktop/assets/icon.ico
 
           python -m compileall -q \
             apps/desktop/wanxiang-tools.py \
             apps/desktop/advanced_settings \
-            vendor/python/pypinyin
+            pypinyin
 
       - name: 📦 构建 Arch 原生软件包
         run: |
@@ -168,7 +168,7 @@ jobs:
           tar -czf arch-build/wanxiang-tools-src.tar.gz \
             apps/desktop/wanxiang-tools.py \
             apps/desktop/advanced_settings \
-            vendor/python/pypinyin
+            pypinyin
 
           # Arch 包启动器：始终使用系统 Python / PySide6 / Qt。
           cat > arch-build/wanxiang-tools <<'EOF'
@@ -225,7 +225,7 @@ jobs:
                   "\$pkgdir/usr/lib/wanxiang-tools/wanxiang-tools.py"
               cp -a "\$srcdir/apps/desktop/advanced_settings" \
                   "\$pkgdir/usr/lib/wanxiang-tools/"
-              cp -a "\$srcdir/vendor/python/pypinyin" \
+              cp -a "\$srcdir/pypinyin" \
                   "\$pkgdir/usr/lib/wanxiang-tools/"
 
               install -Dm755 "\$srcdir/wanxiang-tools" \
@@ -280,7 +280,7 @@ jobs:
             --paths apps/desktop \
             --paths vendor/python \
             --collect-submodules advanced_settings \
-            --add-data "vendor/python/pypinyin;pypinyin" \
+            --add-data "pypinyin;pypinyin" \
             --hidden-import requests \
             --collect-all ruamel.yaml \
             --exclude-module tkinter \
@@ -312,7 +312,7 @@ jobs:
       - run: |
           test -f apps/desktop/wanxiang-tools.py
           test -f apps/desktop/advanced_settings/__init__.py
-          test -d vendor/python/pypinyin
+          test -d pypinyin
 
           if [ ! -f apps/desktop/assets/icon.ico ]; then touch icon.ico; fi
 
@@ -321,7 +321,7 @@ jobs:
             --paths apps/desktop \
             --paths vendor/python \
             --collect-submodules advanced_settings \
-            --add-data "vendor/python/pypinyin:pypinyin" \
+            --add-data "pypinyin:pypinyin" \
             --hidden-import requests \
             --collect-all ruamel.yaml \
             --exclude-module tkinter \
@@ -371,7 +371,7 @@ jobs:
         run: |
           mkdir -p apps/android/wanxiang-updater/app/src/main/python
           rm -rf apps/android/wanxiang-updater/app/src/main/python/pypinyin
-          cp -a vendor/python/pypinyin apps/android/wanxiang-updater/app/src/main/python/
+          cp -a pypinyin apps/android/wanxiang-updater/app/src/main/python/
 
           # Android 端复用桌面高级设置的 YAML 引擎和元数据；不复制 PySide6 UI。
           rm -rf apps/android/wanxiang-updater/app/src/main/python/advanced_settings

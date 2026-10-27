@@ -6,8 +6,7 @@
 
 | 组件 | 仓库路径 | 来源 | 许可证/说明 |
 |---|---|---|---|
-| pypinyin | `vendor/python/pypinyin/` | [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin)；当前源码声明版本 `0.53.0` | MIT |
-| tqdm | `vendor/python/tqdm/` | [tqdm/tqdm](https://github.com/tqdm/tqdm) | 上游文件分别适用 MPL-2.0 或 MIT，随源码保留上游声明 |
+| pypinyin | `pypinyin/` | [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin)；当前源码声明版本 `0.53.0` | MIT |
 | rime-schema-compare | `tools/benchmark/rime-schema-compare/` | [gaboolic/rime-schema-compare](https://github.com/gaboolic/rime-schema-compare) | 保留上游 NOTICE；当前仓库为源码快照，发布前应补充具体上游提交 |
 | rime-frost | `tools/benchmark/rime-schema-compare/vendor/rime-frost` | [gaboolic/rime-frost](https://github.com/gaboolic/rime-frost) | 以子模块仓库许可证为准 |
 | rime-ice | `tools/benchmark/rime-schema-compare/vendor/rime-ice` | [iDvel/rime-ice](https://github.com/iDvel/rime-ice) | 以子模块仓库许可证为准 |

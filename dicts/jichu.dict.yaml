@@ -53525,6 +53525,7 @@ sort: by_weight
 家督	jiā dū	972
 夹断	jiā duàn	163
 甲队	jiǎ duì	729
+加对	jiā duì	310
 嘉顿	jiā dùn	603
 加多	jiā duō	433
 价额	jià é	634
@@ -155480,6 +155481,7 @@ sort: by_weight
 志丹	zhì dān	39
 掷弹	zhì dàn	37
 只当	zhǐ dāng	1294
+治党	zhì dǎng	355
 值当	zhí dàng	178
 治党	zhì dǎng	142
 志当	zhì dāng	113
@@ -481028,6 +481030,7 @@ sort: by_weight
 你找几	nǐ zhǎo jǐ	156
 你召集	nǐ zhào jí	140
 你赵家	nǐ zhào jiā	324
+你找见	nǐ zhǎo jiàn	108
 你招进	nǐ zhāo jìn	410
 你照旧	nǐ zhào jiù	212
 你召开	nǐ zhào kāi	207
@@ -507102,6 +507105,8 @@ sort: by_weight
 清暑殿	qīng shǔ diàn	297
 轻熟风	qīng shú fēng	486
 轻熟感	qīng shú gǎn	288
+请梳理	qǐng shū lǐ	153
+情书里	qíng shū lǐ	84
 轻熟龄	qīng shú líng	13
 轻熟男	qīng shú nán	423
 轻熟女	qīng shú nǚ	752
@@ -1409530,7 +1409535,6 @@ sort: by_weight
 小美牛肝菌	xiǎo měi niú gān jūn	10
 小美洲黑雁	xiǎo měi zhōu hēi yàn	10
 小门鲸鱼洞	xiǎo mén jīng yú dòng	10
-小米虫虫翔	xiǎo mǐ chóng chóng xiáng	10
 小咪大喇叭	xiǎo mī dà lǎ ba	10
 小米的产品	xiǎo mǐ de chǎn pǐn	10
 小米的成功	xiǎo mǐ de chéng gōng	10
@@ -1409599,7 +1409603,6 @@ sort: by_weight
 小朋友们玩	xiǎo péng you men wán	10
 笑贫不笑娼	xiào pín bú xiào chāng	10
 小屏爱好者	xiǎo píng ài hào zhě	10
-萧平实导师	xiāo píng shí dǎo shī	10
 小普济尔基	xiǎo pǔ jì ěr jī	10
 肖普朗大学	xiāo pǔ lǎng dà xué	10
 小普里齐基	xiǎo pǔ lǐ qí jī	10
@@ -1409621,7 +1409624,6 @@ sort: by_weight
 小箐口水库	xiǎo qìng kǒu shuǐ kù	10
 小青龙合剂	xiǎo qīng lóng hé jì	10
 小青蛙呱呱	xiǎo qīng wā guā guā	10
-小鲭鱼薇薇	xiǎo qīng yú wēi wēi	10
 消球差透镜	xiāo qiú chà tòu jìng	12
 小球的动能	xiǎo qiú de dòng néng	10
 小区的保安	xiǎo qū de bǎo ān	10
@@ -1409811,7 +1409813,6 @@ sort: by_weight
 潇湘在何处	xiāo xiāng zài hé chù	10
 萧萧班马鸣	xiāo xiāo bān mǎ míng	10
 笑笑不说话	xiào xiào bù shuō huà	10
-笑笑的离开	xiào xiào de lí kāi	10
 萧萧联络线	xiāo xiāo lián luò xiàn	10
 笑小说系列	xiào xiǎo shuō xì liè	10
 笑笑孙亚龙	xiào xiào sūn yà lóng	10
@@ -1409821,11 +1409822,9 @@ sort: by_weight
 潇潇雨未歇	xiāo xiāo yǔ wèi xiē	10
 小谢尔巴基	xiǎo xiè ěr bā jī	10
 小谢与秋容	xiǎo xiè yǔ qiū róng	10
-小新的蜡笔	xiǎo xīn de là bǐ	10
 小心谨慎地	xiǎo xīn jǐn shèn de	10
 小辛码头村	xiǎo xīn mǎ tóu cūn	10
 小心没大错	xiǎo xīn méi dà cuò	10
-小新没蜡笔	xiǎo xīn méi là bǐ	10
 小新萌萌哒	xiǎo xīn méng méng dā	10
 小新牌螺丝	xiǎo xīn pái luó sī	10
 小心无大错	xiǎo xīn wú dà cuò	10
@@ -1409873,7 +1409872,6 @@ sort: by_weight
 消炎利胆片	xiāo yán lì dǎn piàn	10
 小眼鳗鳞鳕	xiǎo yǎn mán lín xuě	10
 小眼一眨巴	xiǎo yǎn yì zhǎ bā	10
-小燕子紫薇	xiǎo yàn zi zǐ wēi	10
 逍遥津之战	xiāo yáo jīn zhī zhàn	10
 逍遥丸水丸	xiāo yáo wán shuǐ wán	10
 逍遥无极扇	xiāo yáo wú jí shàn	10
@@ -1409925,7 +1409923,6 @@ sort: by_weight
 小盂鼎铭文	xiǎo yú dǐng míng wén	10
 小于或等于	xiǎo yú huò děng yú	10
 小鱼冒个泡	xiǎo yú mào gè pào	10
-小羽萌萌哒	xiǎo yǔ méng méng dā	10
 小鱼去德国	xiǎo yú qù dé guó	10
 小于胎龄儿	xiǎo yú tāi líng ér	10
 小鱼吐泡泡	xiǎo yú tǔ pào pào	10

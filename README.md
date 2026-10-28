@@ -161,7 +161,6 @@ octagram:
 | `tools/quality/` | 质量检查和词条筛选脚本 |
 | `tools/rime/` | Rime 词典转换与刷拼音、辅助码工具 |
 | `tools/benchmark/rime-schema-compare/` | 基于 librime 的输入准确率评测工具 |
-| `vendor/python/` | 随项目分发的第三方 Python 源码 |
 | `platform/windows/ahk/` | Windows 快捷键工具和相关运行文件 |
 
 ## 附加词库目录

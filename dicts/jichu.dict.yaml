@@ -24030,6 +24030,7 @@ sort: by_weight
 滴着	dī zhe	109
 抵折	dǐ zhé	62
 地震	dì zhèn	7944
+低帧	dī zhēn	439
 敌阵	dí zhèn	276
 地政	dì zhèng	38
 地址	dì zhǐ	43574
@@ -36802,6 +36803,7 @@ sort: by_weight
 高着	gāo zhāo	97
 高者	gāo zhě	232
 高枕	gāo zhěn	91
+高帧	gāo zhēn	73
 高政	gāo zhèng	1066
 高拯	gāo zhěng	129
 告知	gào zhī	14808
@@ -239740,7 +239742,7 @@ sort: by_weight
 大口吃	dà kǒu chī	1044
 大口袋	dà kǒu dài	148
 大口地	dà kǒu de	52
-大口的	dà kǒu de	52
+大口的	dà kǒu de	50
 打口碟	dǎ kǒu dié	472
 大口喝	dà kǒu hē	91
 大口径	dà kǒu jìng	1083
@@ -530327,6 +530329,8 @@ sort: by_weight
 赏黄金	shǎng huáng jīn	327
 上黄泥	shàng huáng ní	288
 上黄山	shàng huáng shān	540
+上回的	shàng huí de	661
+商会的	shāng huì de	97
 上会儿	shàng huì er	19
 商会法	shāng huì fǎ	284
 上会稿	shàng huì gǎo	220
@@ -613066,8 +613070,9 @@ sort: by_weight
 我背对	wǒ bèi duì	482
 我被罚	wǒ bèi fá	364
 我北方	wǒ běi fāng	468
-我被分	wǒ bèi fēn	630
-我备份	wǒ bèi fèn	315
+我备份	wǒ bèi fèn	630
+我辈分	wǒ bèi fēn	346
+我被分	wǒ bèi fēn	315
 我悲愤	wǒ bēi fèn	205
 我背负	wǒ bēi fù	495
 我被赶	wǒ bèi gǎn	702
@@ -630573,6 +630578,7 @@ sort: by_weight
 我这副	wǒ zhè fù	576
 我折服	wǒ zhé fú	471
 我蛰伏	wǒ zhé fú	312
+我这副	wǒ zhè fù	286
 我这幅	wǒ zhè fú	240
 我这刚	wǒ zhè gāng	576
 我这个	wǒ zhè ge	20215
@@ -700689,7 +700695,9 @@ sort: by_weight
 有势场	yǒu shì chǎng	162
 优势大	yōu shì dà	878
 又是当	yòu shì dāng	626
-有时到	yǒu shí dào	603
+又是到	yòu shì dào	203
+有十道	yǒu shí dào	166
+有时到	yǒu shí dào	61
 有事的	yǒu shì de	1490
 优势的	yōu shì de	885
 油似的	yóu shì de	333
@@ -723430,6 +723438,9 @@ sort: by_weight
 这样很	zhè yàng hěn	1300
 这样画	zhè yàng huà	724
 这样会	zhè yàng huì	4644
+这样记	zhè yàng jì	145
+这样计	zhè yàng jì	111
+这样既	zhè yàng jì	73
 这样叫	zhè yàng jiào	927
 这样教	zhè yàng jiāo	745
 遮阳镜	zhē yáng jìng	3
@@ -1294513,6 +1294524,7 @@ sort: by_weight
 这副场面	zhè fù chǎng miàn	414
 这副德行	zhè fù dé xing	116
 这副德性	zhè fù dé xing	104
+这副屌样	zhè fù diǎo yàng	20
 这副对联	zhè fù duì lián	526
 蛰伏多年	zhé fú duō nián	446
 浙富股份	zhè fù gǔ fèn	99
@@ -1294521,7 +1294533,6 @@ sort: by_weight
 这副模样	zhè fù mú yàng	327
 折伏摄受	zhé fú shè shòu	4
 这副样子	zhè fù yàng zi	229
-这幅样子	zhè fú yàng zi	206
 蛰伏已久	zhé fú yǐ jiǔ	410
 这该不是	zhè gāi bú shì	6
 这该换了	zhè gāi huàn le	4
